@@ -56,31 +56,43 @@ sudo ufw allow 2456:2458/tcp
 ```
 sudo ufw allow 2456:2458/udp
 ```
-
+### Setup Valheim service
+```
+sudo nano /etc/systemd/system/valheim.service
 ```
 
 ```
+[Unit]
+Description=Valheim Server
 
+[Service]
+User=username
+WorkingDirectory=/home/user/steamcmd
+ExecStart=/home/user/steamcmd/start_valheim.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 ```
-
+sudo systemctl daemon-reload
 ```
 
 ```
-
+sudo systemctl enable valheim
 ```
 
 ```
-
+sudo systemctl start valheim
 ```
 
 ```
-
+sudo systemctl status valheim
 ```
+![image](https://github.com/cdawg3/Virtual-Machine-Handbook/assets/99144314/fb67e079-7265-4e19-aa8f-0b72c447d2a9)
 
+### Check logs to see if it's working
 ```
-
-```
-
+sudo journalctl -u valheim -f
 ```
