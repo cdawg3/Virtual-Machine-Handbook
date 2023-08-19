@@ -1,3 +1,5 @@
+https://youtu.be/-bPa5i2OtdI
+
 ### Update and upgrade the system
 ```
 sudo apt-get update
