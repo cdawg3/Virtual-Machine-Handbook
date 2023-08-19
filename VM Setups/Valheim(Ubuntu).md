@@ -1,8 +1,8 @@
 Here is the [source video](https://youtu.be/gVUlcsiPFxA)
 
-[Additional resource 1](https://developer.valvesoftware.com/wiki/SteamCMD)
+- [Additional resource 1](https://developer.valvesoftware.com/wiki/SteamCMD)
 
-[Additional resource 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2383801614)
+- [Additional resource 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2383801614)
 
 ### Update and upgrade system
 ```
