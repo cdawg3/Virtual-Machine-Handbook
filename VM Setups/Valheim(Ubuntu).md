@@ -1,3 +1,5 @@
+Here is the [source video](https://youtu.be/gVUlcsiPFxA).
+
 ### Update and upgrade system
 ```
 sudo apt update
