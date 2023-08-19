@@ -32,7 +32,7 @@
 
 ### Login as root
 NextCloud login: root
-Password: #password you created*
+Password: *password you created*
 
 ### Create and confirm MySQL Adminer password
 ![image](https://github.com/cdawg3/Virtual-Machine-Handbook/assets/99144314/43f7754b-8004-403c-bd88-ff1f09713afd)
