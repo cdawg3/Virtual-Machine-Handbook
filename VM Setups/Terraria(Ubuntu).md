@@ -1,4 +1,4 @@
-Here is the [Source video](https://youtu.be/-bPa5i2OtdI)
+Here is the [source video](https://youtu.be/-bPa5i2OtdI)
 
 ### Update and upgrade the system
 ```
