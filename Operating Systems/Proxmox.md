@@ -31,6 +31,9 @@ ls /etc/apt/sources.list.d
 ### Comment out the only line in each file. Example files: 
 ```
 nano /etc/apt/sources.list.d/pve-enterprise.list
+```
+
+```
 nano /etc/apt/sources.list.d/ceph.list
 ```
 ### Update and upgrade
