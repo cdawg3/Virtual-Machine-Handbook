@@ -1,5 +1,7 @@
 # Proxmox Setup
 
+[Proxmox documentation](https://pve.proxmox.com/pve-docs/)
+
 ### Check that internet is working
 ```
 ip a
