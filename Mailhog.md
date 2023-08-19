@@ -18,6 +18,8 @@ sudo ufw allow 8025/tcp
 ```
 mailhog
 ```
+![image](https://github.com/cdawg3/Virtual-Machine-Handbook/assets/99144314/2b42730b-5e36-4cc4-80c7-c47ba1dd54e9)
+
 ### Create file for mailhog service
 
 ```
