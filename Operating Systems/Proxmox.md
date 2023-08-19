@@ -6,8 +6,8 @@ ip a
 ```
 
 ### look for this line or one similar (it is probably towards the bottom):
-*vmbr0: <BROADCAST,MULTICAST> mtu 1500 qdisc mq state UP group default qlen 1000
- inet 192.168.1.130/24 brd 192.168.1.255 scope global eth0*
+*vmbr0: <BROADCAST,MULTICAST> mtu 1500 qdisc mq state UP group default qlen 1000*
+ *inet 192.168.1.130/24 brd 192.168.1.255 scope global eth0*
 
  **If using a server with iLO make sure ethernet is plugged in iLO and standard ethernet**
 
