@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install openssl
 ```
 
-```shell
+```shell-script
 mkdir -p ~/CA/newcerts
 ```
 
