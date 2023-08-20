@@ -1,4 +1,4 @@
-``` bash
+```Linux Kernel Module
 sudo apt-get update
 ```
 
