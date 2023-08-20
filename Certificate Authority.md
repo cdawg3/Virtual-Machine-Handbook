@@ -1,4 +1,4 @@
-```Linux Kernel Module
+```Shell
 sudo apt-get update
 ```
 
