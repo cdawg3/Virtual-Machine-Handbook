@@ -89,48 +89,11 @@ ls -l /var/lib/dbus/machine-id
 sudo ln -s /etc/machine-id /var/lib/dbus/machine-id
 ```
 
+### Clean the template
+```
+sudo apt clean
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+sudo apt autoremove
+```
