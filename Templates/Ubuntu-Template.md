@@ -1,6 +1,6 @@
 # Ubuntu Template Tutorial
-Source video [Launching a Virtual Machine](https://www.youtube.com/watch?v=xBUnV2rQ7do&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=6).
-Source video [Creating Virtual Machine Templates](https://www.youtube.com/watch?v=t3Yv4OOYcLs&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=7).
+Source video [Launching a Virtual Machine](https://www.youtube.com/watch?v=xBUnV2rQ7do&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=6).  
+Source video [Creating Virtual Machine Templates](https://www.youtube.com/watch?v=t3Yv4OOYcLs&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=7).  
 
 
 ## Initial setup
