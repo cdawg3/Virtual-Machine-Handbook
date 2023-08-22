@@ -16,7 +16,7 @@ done
 
 ### Make the script executable
 ```bash
-chmod +x /home/caleb/ip_logger.sh
+chmod +x /home/user/ip_logger.sh
 ```
 
 ### Create file
@@ -30,7 +30,7 @@ sudo nano /etc/systemd/system/ip-logger.service
 Description=IP Logger for UDP Port 2456
 
 [Service]
-ExecStart=/home/caleb/ip_logger.sh
+ExecStart=/home/user/ip_logger.sh
 Restart=on-failure
 User=caleb
 
