@@ -8,8 +8,13 @@ sudo nano /home/user/ip_logger.sh
 ### Add this to the file
 ```bash
 #!/bin/bash
+touch /home/caleb/unique_ips.log
 while true; do
-  sudo tcpdump -i ens18 -n udp port 2456 | awk '{ if ($3 !~ /^192.168.1./ && $5 !~ /^192.168.1./) print $3 " -> " $5 }' | cut -d '.' -f 1-4 | tee /home/caleb/ip_addresses.log
+  sudo tcpdump -i ens18 -n udp port 2456 | awk '{ split($3, src, "."); split($5, dst, "."); print src[1]"."src[2]"."src[3]"."src[4]; print dst[1]"."dst[2]"."dst[3]"."dst[4]; }' | while read ip; do
+    if ! grep -q "$ip" /home/caleb/unique_ips.log; then
+      echo "$ip" | tee -a /home/caleb/unique_ips.log
+    fi
+  done
   sleep 1 # to prevent high CPU usage if tcpdump exits quickly
 done
 ```
