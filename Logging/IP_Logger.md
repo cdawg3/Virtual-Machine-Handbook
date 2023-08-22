@@ -15,17 +15,17 @@ done
 ```
 
 ### Make the script executable
-```
+```bash
 chmod +x /home/caleb/ip_logger.sh
 ```
 
 ### Create file
-```
+```bash
 sudo nano /etc/systemd/system/ip-logger.service
 ```
 
 ### Add this to the file
-```
+```bash
 [Unit]
 Description=IP Logger for UDP Port 2456
 
@@ -39,26 +39,26 @@ WantedBy=multi-user.target
 ```
 
 ### Reload
-```
+```bash
 sudo systemctl daemon-reload
 ```
 
 ### Enable service
-```
+```bash
 sudo systemctl enable ip-logger.service
 ```
 
 ### Start service
-```
+```bash
 sudo systemctl start ip-logger.service
 ```
 
 ### Check status
-```
+```bash
 sudo systemctl status ip-logger.service
 ```
 
 ### Check logs
-```
+```bash
 sudo journalctl -xe -u ip-logger.service
 ```
